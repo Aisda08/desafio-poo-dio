@@ -51,8 +51,17 @@ public class Bootcamp {
         return conteudos;
     }
 
+    public void addConteudo(Conteudo conteudo) {
+        conteudos.add(conteudo);
+    }
+
     public void setConteudos(Set<Conteudo> conteudos) {
         this.conteudos = conteudos;
+    }
+
+
+    public void addMentoria(Mentoria mentoria) {
+        conteudos.add(mentoria);
     }
 
     @Override
